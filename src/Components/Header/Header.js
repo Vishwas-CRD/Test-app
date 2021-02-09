@@ -2,20 +2,17 @@ import React from 'react'
 
 function Header() {
     return (
-        <div class='header_wrapper'>
-            <div class='wrap'>
-                <div class='logo_wrap'>
-                    <div class='logo_img'>
-                        Vishwas_@
+        <header>
+            <div data-Testid='header_wrapper'>
+                <div data-Testid='wrap'>
+                    <div data-Testid='logo_wrap'>
+                        <div data-Testid='logo_img'>
+                            Vishwas_@
+                        </div>
                     </div>
-
                 </div>
-
             </div>
- 
-
-            
-        </div>
+        </header>
     )
 }
 
