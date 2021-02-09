@@ -9,7 +9,8 @@ import {findByTestArr} from './../../../../Utils/index'
 const setUp=(props={})=>
 {
  const component=shallow(<Header {...props}/>);
-  //Shallow returns the whole tags structure that are present inside the header//
+  
+ //Shallow returns the whole tags structure that are present inside the header//
  return component;
 }
 
