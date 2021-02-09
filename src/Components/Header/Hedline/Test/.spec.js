@@ -14,7 +14,7 @@ const setUp = (props={}) => {
 describe('Headline Component', () => {
 
     describe('Have props', () => {
- 
+
         let wrapper;
         beforeEach(() => {
             const props = {
